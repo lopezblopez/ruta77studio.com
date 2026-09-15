@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>RUTA77 — Private Forest House</title>
+  <meta name="description" content="浅間山麓、標高1,100m。一日一組のための森のプライベートハウス。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Noto+Sans+JP:wght@300;400;500;600&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+  <style>
+    :root{--ink:#172019;--muted:#627067;--line:#d9ddd8;--paper:#fff;--forest:#173d2d;--mist:#f4f6f3;--accent:#ba603f}
+    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;color:var(--ink);background:var(--paper);font-family:"Noto Sans JP",sans-serif;font-size:16px;line-height:1.75} a{color:inherit;text-decoration:none} img{display:block;width:100%} button{font:inherit;color:inherit}
+    .shell{width:min(1180px,calc(100% - 48px));margin:auto}.top{height:78px;border-bottom:1px solid #eef0ed;background:#fffc;backdrop-filter:blur(18px);position:sticky;top:0;z-index:20}.top .shell{height:100%;display:flex;align-items:center;justify-content:space-between}.brand{font:600 17px "DM Sans";letter-spacing:.24em}.brand small{font:500 9px "DM Sans";letter-spacing:.18em;color:var(--muted);display:block;margin-top:-4px}.nav{display:flex;gap:28px;align-items:center;font:500 13px "DM Sans"}.pill{border:1px solid var(--line);border-radius:999px;padding:10px 16px;background:#fff}.hero-head{padding:32px 0 22px;display:flex;align-items:end;justify-content:space-between;gap:24px}.eyebrow{color:var(--muted);font:600 11px "DM Sans";letter-spacing:.16em;text-transform:uppercase;margin:0 0 8px}.hero-head h1{font:600 clamp(29px,4vw,46px)/1.15 "Playfair Display";margin:0;letter-spacing:-.02em}.location{color:var(--muted);font-size:14px}.actions{display:flex;gap:10px}.icon-btn{background:white;border:1px solid var(--line);border-radius:999px;padding:9px 14px;font-size:13px}
+    .mosaic{display:grid;grid-template-columns:2fr 1fr 1fr;grid-template-rows:245px 245px;gap:8px;border-radius:22px;overflow:hidden;background:#eee}.mosaic button{border:0;padding:0;overflow:hidden;cursor:pointer;position:relative}.mosaic button:first-child{grid-row:1/3}.mosaic img{height:100%;object-fit:cover;transition:transform .55s ease,filter .55s ease}.mosaic button:hover img{transform:scale(1.025);filter:brightness(.96)}.all-photos{position:absolute;right:14px;bottom:14px;background:#fff;border-radius:9px;padding:8px 12px;font:600 12px "DM Sans";box-shadow:0 2px 12px #0002}
+    .content{display:grid;grid-template-columns:minmax(0,1fr) 370px;gap:72px;padding:48px 0 96px}.main h2{font:600 28px/1.35 "Playfair Display";margin:0 0 8px}.subline{color:var(--muted);margin:0 0 26px}.rule{border:0;border-top:1px solid var(--line);margin:32px 0}.hostline{display:flex;gap:16px;align-items:center}.mark{width:48px;height:48px;border-radius:50%;background:var(--forest);display:grid;place-items:center;color:white;font:600 12px "DM Sans";letter-spacing:.12em}.hostline strong{display:block}.hostline span{color:var(--muted);font-size:13px}.lead{font-size:17px;line-height:2;color:#344039}.readmore{display:inline-block;margin-top:10px;text-decoration:underline;font-weight:600}.highlights{display:grid;gap:23px}.highlight{display:grid;grid-template-columns:34px 1fr;gap:14px}.highlight .ico{font-size:21px}.highlight strong{display:block}.highlight span{color:var(--muted);font-size:14px}.amenities{display:grid;grid-template-columns:1fr 1fr;gap:18px 34px;margin-top:24px}.amenity{display:flex;gap:12px;align-items:center}.amenity i{font-style:normal;width:24px}.sticky{position:sticky;top:105px;border:1px solid #dfe2de;border-radius:20px;padding:25px;box-shadow:0 10px 35px #18332614;height:max-content}.price{font:600 23px "DM Sans"}.price small{font:400 14px "Noto Sans JP"}.booking-grid{display:grid;grid-template-columns:1fr 1fr;border:1px solid #9da59f;border-radius:12px;overflow:hidden;margin:20px 0 13px}.booking-grid div{padding:10px 12px}.booking-grid div:nth-child(odd){border-right:1px solid #9da59f}.booking-grid div:last-child{grid-column:1/3;border-top:1px solid #9da59f;border-right:0}.booking-grid label{display:block;font:600 9px "DM Sans";letter-spacing:.12em}.booking-grid span{font-size:13px}.cta{width:100%;border:0;border-radius:11px;background:var(--forest);color:#fff;padding:15px;font-weight:600;cursor:pointer}.note{text-align:center;font-size:12px;color:var(--muted);margin:12px 0 0}.detailrow{display:flex;justify-content:space-between;font-size:14px;margin-top:20px}.detailrow+.detailrow{margin-top:8px}.total{border-top:1px solid var(--line);padding-top:13px;font-weight:600}.gallery-section{background:var(--mist);padding:92px 0}.section-title{font:600 clamp(32px,4vw,48px)/1.2 "Playfair Display";margin:0 0 10px}.section-copy{color:var(--muted);margin:0 0 34px}.rooms{display:grid;grid-template-columns:1.2fr .8fr .8fr;gap:18px}.room{background:white;border-radius:16px;overflow:hidden}.room img{height:280px;object-fit:cover}.room:first-child img{height:370px}.room-copy{padding:18px 19px 20px}.room h3{margin:0;font-size:17px}.room p{margin:4px 0 0;color:var(--muted);font-size:13px}.asama{margin-top:18px;min-height:500px;border-radius:18px;overflow:hidden;position:relative;display:flex;align-items:end;color:white;background:#183326}.asama img{position:absolute;inset:0;height:100%;object-fit:cover}.asama:after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,#07140ec7,transparent 65%)}.asama-copy{position:relative;z-index:2;padding:48px;max-width:650px}.asama h2{font:600 clamp(36px,5vw,58px)/1.1 "Playfair Display";margin:0 0 12px}.asama p{margin:0;line-height:1.9}.footer{background:#11251b;color:#dce5df;padding:58px 0}.footer .shell{display:flex;justify-content:space-between;gap:30px}.footer strong{font:600 16px "DM Sans";letter-spacing:.2em}.footer p{margin:6px 0 0;color:#aebbb3;font-size:13px}.langs{display:flex;gap:15px;font-size:12px}
+    dialog{width:min(1060px,94vw);border:0;border-radius:18px;padding:0;background:#101613;color:white}.lightbox{position:relative;padding:52px}.lightbox img{max-height:76vh;object-fit:contain}.close{position:absolute;right:16px;top:13px;border:0;background:#ffffff18;color:white;border-radius:50%;width:34px;height:34px;cursor:pointer}
+    @media(max-width:900px){.nav a:not(.pill){display:none}.shell{width:min(100% - 30px,1180px)}.hero-head{align-items:start}.actions{display:none}.mosaic{grid-template-columns:1fr 1fr;grid-template-rows:330px 150px}.mosaic button:first-child{grid-column:1/3;grid-row:auto}.mosaic button:nth-child(n+4){display:none}.content{grid-template-columns:1fr;gap:35px}.sticky{position:static;grid-row:1}.rooms{grid-template-columns:1fr 1fr}.room:first-child{grid-column:1/3}.footer .shell{display:block}.langs{margin-top:22px}}
+    @media(max-width:560px){.top{height:66px}.brand small{display:none}.pill{padding:8px 12px}.hero-head{padding:24px 0 16px}.hero-head h1{font-size:30px}.mosaic{display:block;height:430px;border-radius:15px}.mosaic button{display:none!important}.mosaic button:first-child{display:block!important;width:100%;height:100%}.content{padding:30px 0 64px}.sticky{padding:20px}.amenities{grid-template-columns:1fr}.gallery-section{padding:65px 0}.rooms{display:block}.room{margin-bottom:16px}.room:first-child img,.room img{height:270px}.asama{min-height:450px}.asama-copy{padding:30px}.lightbox{padding:46px 12px 18px}}
+  </style>
+</head>
+<body>
+  <header class="top"><div class="shell"><a class="brand" href="#">RUTA77<small>PRIVATE FOREST HOUSE</small></a><nav class="nav"><a href="#house">The house</a><a href="#spaces">Spaces</a><a href="#asama">Asama</a><a class="pill" href="#request">空き状況を確認</a></nav></div></header>
+  <main>
+    <section class="shell">
+      <div class="hero-head"><div><p class="eyebrow">Tsumagoi · Gunma · Japan</p><h1>森にひらく、静かな一軒家</h1><div class="location">浅間山麓 · 標高1,100m · 一日一組</div></div><div class="actions"><button class="icon-btn">↗ シェア</button><button class="icon-btn">♡ 保存</button></div></div>
+      <div class="mosaic" id="photoGrid">
+        <button data-photo="assets/photos/living-room.webp"><img src="assets/photos/living-room.webp" alt="森を望むRuta77のリビング"></button>
+        <button data-photo="assets/photos/living-forest.webp"><img src="assets/photos/living-forest.webp" alt="窓の向こうに森が広がる室内"></button>
+        <button data-photo="assets/photos/deck-day.webp"><img src="assets/photos/deck-day.webp" alt="森に囲まれたウッドデッキ"></button>
+        <button data-photo="assets/photos/tatami-wide.webp"><img src="assets/photos/tatami-wide.webp" alt="Ruta77の和室"></button>
+        <button data-photo="assets/photos/cabin-winter.webp"><img src="assets/photos/cabin-winter.webp" alt="冬のRuta77"><span class="all-photos">▦ 写真をすべて表示</span></button>
+      </div>
+      <div class="content" id="house">
+        <article class="main">
+          <h2>森と過ごすための、プライベートハウス</h2>
+          <p class="subline">最大8名 · リビング · 和室 · キッチン · デッキ · 専用駐車場</p>
+          <hr class="rule">
+          <div class="hostline"><div class="mark">R77</div><div><strong>RUTA77がお迎えします</strong><span>Private host · Tsumagoi</span></div></div>
+          <hr class="rule">
+          <div class="highlights">
+            <div class="highlight"><div class="ico">♧</div><div><strong>一日一組だけの森</strong><span>周囲を気にせず、家とデッキをゆっくり使えます。</span></div></div>
+            <div class="highlight"><div class="ico">⌁</div><div><strong>標高1,100mの静けさ</strong><span>浅間山麓の澄んだ空気。夏は涼しく、冬は深い静寂に包まれます。</span></div></div>
+            <div class="highlight"><div class="ico">◉</div><div><strong>仕事にも、休息にも</strong><span>高速Starlink Wi-Fiと、森へ開く大きな窓を備えています。</span></div></div>
+          </div>
+          <hr class="rule">
+          <p class="lead">木々の間にひっそりと佇むRUTA77。鳥の声で始まる朝、窓いっぱいの緑、デッキで過ごす長い午後。ここにあるのは、予定を詰め込まないための時間です。</p>
+          <a class="readmore" href="#spaces">空間を詳しく見る →</a>
+          <hr class="rule">
+          <h2>この場所にあるもの</h2>
+          <div class="amenities"><div class="amenity"><i>⌂</i>家をまるごと利用</div><div class="amenity"><i>⌁</i>Starlink Wi-Fi</div><div class="amenity"><i>▱</i>森のウッドデッキ</div><div class="amenity"><i>◫</i>設備の整ったキッチン</div><div class="amenity"><i>▣</i>和室</div><div class="amenity"><i>♨</i>近隣の温泉</div><div class="amenity"><i>♧</i>自然に囲まれた環境</div><div class="amenity"><i>◉</i>敷地内駐車場</div></div>
+        </article>
+        <aside class="sticky" id="request">
+          <div class="price">¥28,000 <small>〜 / day</small></div>
+          <div class="booking-grid"><div><label>DATE</label><span>日付を選択</span></div><div><label>TIME</label><span>10:00 – 18:00</span></div><div><label>GUESTS</label><span>ゲスト1〜8名</span></div></div>
+          <button class="cta">空き状況を問い合わせる</button>
+          <p class="note">まだ請求は発生しません</p>
+          <div class="detailrow"><span>1日プライベート利用</span><span>¥28,000</span></div><div class="detailrow"><span>清掃・準備</span><span>含む</span></div><div class="detailrow total"><span>合計（目安）</span><span>¥28,000</span></div>
+        </aside>
+      </div>
+    </section>
+    <section class="gallery-section" id="spaces"><div class="shell"><p class="eyebrow">Inside Ruta77</p><h2 class="section-title">部屋から部屋へ、森が続く</h2><p class="section-copy">写真はすべて実際のRUTA77で撮影。明るさ・色・遠近感のみを自然に整えています。</p><div class="rooms"><article class="room"><img src="assets/photos/living-forest.webp" alt="リビングと森"><div class="room-copy"><h3>Living room</h3><p>大きな窓と、森へつながる開放的なリビング。</p></div></article><article class="room"><img src="assets/photos/tatami-storage.webp" alt="和室"><div class="room-copy"><h3>Tatami room</h3><p>畳と障子に包まれた、静かな空間。</p></div></article><article class="room"><img src="assets/photos/deck-night.webp" alt="夜のデッキ"><div class="room-copy"><h3>Forest deck</h3><p>食事や会話を楽しめる森のデッキ。</p></div></article></div><div class="asama" id="asama"><img src="assets/photos/asama-kannon.webp" alt="浅間山と浅間山観音堂"><div class="asama-copy"><p class="eyebrow">At the foot of Mount Asama</p><h2>火山と森、その間で。</h2><p>浅間山の雄大な景観と、森の深い静けさ。RUTA77は、その両方を感じられる場所にあります。正確な住所は、ご予約確定後にご案内します。</p></div></div></div></section>
+  </main>
+  <footer class="footer"><div class="shell"><div><strong>RUTA77</strong><p>Private forest house · Tsumagoi, Gunma</p></div><div class="langs"><span>日本語</span><span>English</span><span>Español</span></div></div></footer>
+  <dialog id="viewer"><div class="lightbox"><button class="close" aria-label="閉じる">×</button><img alt="Ruta77 photo"></div></dialog>
+  <script>
+    const viewer=document.querySelector('#viewer'),viewerImg=viewer.querySelector('img');
+    document.querySelectorAll('[data-photo]').forEach(button=>button.addEventListener('click',()=>{viewerImg.src=button.dataset.photo;viewer.showModal()}));
+    viewer.querySelector('.close').addEventListener('click',()=>viewer.close()); viewer.addEventListener('click',e=>{if(e.target===viewer)viewer.close()});
+  </script>
+</body>
+</html>
