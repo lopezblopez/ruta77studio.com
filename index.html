@@ -142,6 +142,13 @@
         font: 500 clamp(62px, 10vw, 150px)/0.78 "Cormorant Garamond";
         letter-spacing: -0.045em;
         margin: 0 0 30px;
+        word-break: keep-all;
+        overflow-wrap: normal;
+      }
+      .display,
+      .cinema h2 {
+        word-break: keep-all;
+        overflow-wrap: normal;
       }
       .hero p {
         max-width: 570px;
@@ -209,7 +216,7 @@
         width: 100%;
         height: 100%;
         object-fit: cover;
-        transition: transform 1s;
+        transition: transform 0.4s ease-out;
       }
       .cinema:hover img {
         transform: scale(1.025);
@@ -253,7 +260,7 @@
         width: 100%;
         height: 100%;
         object-fit: cover;
-        transition: 0.7s;
+        transition: transform 0.35s ease-out;
       }
       .card:hover img {
         transform: scale(1.035);
@@ -440,6 +447,20 @@
           margin-top: 8px;
         }
       }
+      @media (prefers-reduced-motion: reduce) {
+        html {
+          scroll-behavior: auto;
+        }
+        .hero-bg {
+          animation: none;
+        }
+        .cinema-media img,
+        .card img,
+        .top,
+        .button {
+          transition: none;
+        }
+      }
     </style>
   </head>
   <body>
@@ -460,11 +481,11 @@
         <div class="hero-copy">
         <div class="kicker">Private forest studio · Tsumagoi</div>
           <h1
-          data-ja="森の中の、プライベートな一日。"
-          data-en="Your private day in the forest."
-          data-es="Tu día privado en el bosque."
+          data-ja="森の中の、<br>プライベート<br>な一日。"
+          data-en="Your private day<br>in the forest."
+          data-es="Tu día privado<br>en el bosque."
           >
-          森の中の、プライベートな一日。
+          森の中の、<br>プライベート<br>な一日。
           </h1>
           <p
           data-ja="浅間山麓の木々に開かれたリビングとデッキ。一日一組だけで、仕事、リトリート、創作の時間を過ごせます。"
@@ -712,7 +733,7 @@
       function lang(l) {
         document.querySelectorAll("[data-ja]").forEach((e) => {
           const v = e.dataset[l];
-          if (v) e.textContent = v;
+          if (v) e.innerHTML = v;
         });
         bs.forEach((b) => b.classList.toggle("active", b.dataset.lang === l));
         document.documentElement.lang = l;
