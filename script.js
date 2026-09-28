@@ -12,3 +12,7 @@ document.getElementById('next-photo').addEventListener('click',()=>displayPhoto(
 dialog.addEventListener('keydown',e=>{if(e.key==='ArrowLeft'){e.preventDefault();displayPhoto(current-1)}if(e.key==='ArrowRight'){e.preventDefault();displayPhoto(current+1)}});
 const form=document.querySelector('form');
 form.addEventListener('submit',e=>{e.preventDefault();if(!form.reportValidity())return;const data=new FormData(form);const body=`${data.get('name')}\n${data.get('dates')}\n\n${data.get('message')}`;window.location.href=`mailto:marjo@ruta77studio.com?subject=${encodeURIComponent(form.dataset.subject)}&body=${encodeURIComponent(body)}`;});
+
+// Pet hosting is not currently offered.
+document.querySelectorAll('a[href="#pets"]').forEach(link=>link.remove());
+document.querySelectorAll('#pets').forEach(section=>section.remove());
