@@ -1,2 +1,3 @@
-# ruta77studio.com
-Ruta77 Studio - Coworking &amp; Yoga Retreat in Tsumagoi, Gunma
+# Ruta77 Studio
+
+Private forest house and studio in Tsumagoi, Gunma.
