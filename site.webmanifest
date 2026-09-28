@@ -1,0 +1,9 @@
+{
+  "name":"RUTA77",
+  "short_name":"RUTA77",
+  "description":"Japanese Mountain House · Tsumagoi, Gunma",
+  "start_url":"/",
+  "display":"standalone",
+  "background_color":"#fffdf8",
+  "theme_color":"#17231e"
+}
