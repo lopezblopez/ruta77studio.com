@@ -229,3 +229,5 @@ dialog::backdrop{background:#0b0e0c}
   html{scroll-behavior:auto}
   *{transition:none!important}
 }
+
+.social-links{margin-top:22px;display:flex;gap:12px;flex-wrap:wrap}.social-links a{display:inline-flex;border:1px solid rgba(255,255,255,.34);padding:10px 13px;color:#fff;font-size:12px;letter-spacing:.02em;transition:.2s ease}.social-links a:hover{background:var(--clay);border-color:var(--clay)}
