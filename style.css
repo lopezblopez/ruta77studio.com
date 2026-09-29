@@ -231,3 +231,5 @@ dialog::backdrop{background:#0b0e0c}
 }
 
 .social-links{margin-top:22px;display:flex;gap:12px;flex-wrap:wrap}.social-links a{display:inline-flex;border:1px solid rgba(255,255,255,.34);padding:10px 13px;color:#fff;font-size:12px;letter-spacing:.02em;transition:.2s ease}.social-links a:hover{background:var(--clay);border-color:var(--clay)}
+
+.social-links a{align-items:center;gap:9px}.social-links a>b{font-weight:400;margin-left:3px}.social-mark{display:inline-flex;align-items:center;justify-content:center;flex:0 0 auto;font-weight:700;line-height:1}.instagram-mark{width:21px;height:21px;border:1.5px solid currentColor;border-radius:6px;font-size:18px}.line-mark{min-width:31px;height:21px;padding:0 4px;border-radius:5px;background:#06c755;color:#fff;font-size:9px;letter-spacing:-.04em}
