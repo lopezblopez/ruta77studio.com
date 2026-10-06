@@ -1,10 +1,1 @@
-# RUTA77
-
-Public website for **RUTA77 — Japanese Mountain House · Tsumagoi**, a private mountain house in the forest at the foot of Mt. Asama, Gunma, Japan.
-
-- Primary language: Japanese
-- Additional languages: English / Spanish
-- Public domain: https://www.ruta77studio.com
-- Brand guide: [BRAND.md](./BRAND.md)
-
-The site is intentionally lightweight static HTML/CSS/JS for fast loading and straightforward maintenance.
+# RUTA77\n\nPublic website for **RUTA77 — Japanese Mountain House · Tsumagoi**, a private mountain house in the forest at the foot of Mt. Asama, Gunma, Japan.\n\n- Primary language: Japanese\n- Additional languages: English / Spanish\n- Public domain: https://www.ruta77studio.com\n- Static build published from the reviewed Ruta77 Studio site.\n\nThe site uses real Ruta77 photographs, professionally retouched with conservative colour and exposure adjustments.\n
